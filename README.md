@@ -47,15 +47,15 @@ IPFS has not been used in this project.
 
 The following libraries have been used in this project:
 
-- node v10.13.0
-- npm@6.4.1
-- truffle@4.1.14
-- Solidity v0.4.24 (solc-js)
-- @truffle/hdwallet-provider@2.1.15
-- lite-server@2.4.0
-- text-encoding@0.7.0
-- web3@1.10.0
-- sol2uml@2.5.14
+- node v10.13.0: NodeJS has been used to run the Truffle development environment and the lite-server web server. It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- npm@6.4.1: NPM has been used to install the required dependencies. It is the package manager for JavaScript.
+- truffle@4.1.14: Truffle has been used to compile, test and deploy the smart contracts. Truffle significantly simplifies the development, testing and deployment of smart contracts. It also provides a development environment that allows you to interact with your contracts and test them on a local test blockchain with 10 accounts 100 ETH per account.
+- Solidity v0.4.24 (solc-js): The Solidity compiler has been used to compile the smart contracts.
+- @truffle/hdwallet-provider@2.1.15: The HDWalletProvider has been used to deploy the smart contracts to Goerli via Infura. It is a wallet implementation that is powered by private keys generated from a mnemonic phrase.
+- lite-server@2.4.0: The lite-server web server has been used to serve the frontend files. It is a lightweight development web server with support for Single Page Apps.
+- text-encoding@0.7.0: The text-encoding library has been used to provide TextEncoder support in NodeJS 10. It is a polyfill for the Encoding Living Standard API that is not supported in NodeJS 10.
+- web3@1.10.0: The web3 library has been used to interact with the smart contracts from the frontend. It is a collection of libraries that allow you to interact with a local or remote Ethereum node using HTTP, IPC or WebSocket.
+- sol2uml@2.5.14: The sol2uml library has been used to generate the UML class diagram from the smart contracts. It is a tool that generates UML diagrams from Solidity smart contracts.
 
 ## Steps
 
