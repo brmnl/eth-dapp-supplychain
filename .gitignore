@@ -17,3 +17,6 @@ Thumbs.db
 # Ignore package-lock.json or yarn.lock
 package-lock.json
 yarn.lock
+
+# Ignore secret
+.secret
