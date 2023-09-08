@@ -39,7 +39,7 @@ This repository contains an Ethereum Dapp that demonstrates how to track items t
 - [x] Frontend is implemented using web3.js to interact with the smart contracts.
 - [x] Use Cases: Submit a product for shipment, receive product from shipment, validate the authenticity of the product.
 
-## IPFS
+## IPFS
 
 IPFS has not been used in this project.
 
@@ -57,7 +57,7 @@ The following libraries have been used in this project:
 - web3@1.10.0
 - sol2uml@2.5.14
 
-## Steps
+## Steps
 
 ### Compilation
 
@@ -180,20 +180,20 @@ Etherscan Transaction: https://goerli.etherscan.io/tx/0x58c67f06b6605bb729171589
 
 The following UML diagrams have been created for this project using Lucidchart:
 
-### Activity
+### Activity
 
 ![Activity Diagram](uml/supplychain_activity.png)
 
-### Sequence
+### Sequence
 
 ![Sequence Diagram](uml/supplychain_sequence.png)
 
-### State
+### State Diagram
 
 ![State Diagram](uml/supplychain_state.png)
 
-### Class (Data Model)
+### Class Diagram (Data Model)
 
 The following diagram has been generated from the contract files under the contracts folder in this repository using sol2uml:
 
-![Classes Diagram](uml/supplychain_classes.png)
+![Classes Diagram](uml/supplychain_class.png)
