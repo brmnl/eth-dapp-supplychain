@@ -7,11 +7,11 @@ This repository contains an Ethereum Dapp that demonstrates how to track items t
 ### Architecture
 
 - [x] General write up e.g. steps and contracts address
-- [ ] Project write-up - UML
-  - [ ] Activity
-  - [ ] Sequence
-  - [ ] State
-  - [ ] Classes (Data Model)
+- [x] Project write-up - UML
+  - [x] Activity
+  - [x] Sequence
+  - [x] State
+  - [x] Classes (Data Model)
 - [x] Project write-up - Libraries
 - [x] Project write-up - IPFS
 
@@ -37,7 +37,7 @@ This repository contains an Ethereum Dapp that demonstrates how to track items t
 ### Frontend
 
 - [x] Frontend is implemented using web3.js to interact with the smart contracts.
-- [x] Use Cases: Submit a product for shipment, receive product from shipment, validate the authenticity of the product.
+- [x] Use Cases: Submit a product for shipment, receive product from shipment, validate the authenticity of the product.
 
 ## IPFS
 
@@ -55,6 +55,7 @@ The following libraries have been used in this project:
 - lite-server@2.4.0
 - text-encoding@0.7.0
 - web3@1.10.0
+- sol2uml@2.5.14
 
 ## Steps
 
@@ -191,6 +192,8 @@ The following UML diagrams have been created for this project using Lucidchart:
 
 ![State Diagram](uml/supplychain_state.png)
 
-### Classes (Data Model)
+### Class (Data Model)
+
+The following diagram has been generated from the contract files under the contracts folder in this repository using sol2uml:
 
 ![Classes Diagram](uml/supplychain_classes.png)
