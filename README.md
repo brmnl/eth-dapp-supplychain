@@ -177,10 +177,20 @@ Etherscan Transaction: https://goerli.etherscan.io/tx/0x58c67f06b6605bb729171589
 
 ## UML Diagrams
 
+The following UML diagrams have been created for this project using Lucidchart:
+
 ### Activity
+
+![Activity Diagram](uml/supplychain_activity.png)
 
 ### Sequence
 
+![Sequence Diagram](uml/supplychain_sequence.png)
+
 ### State
 
+![State Diagram](uml/supplychain_state.png)
+
 ### Classes (Data Model)
+
+![Classes Diagram](uml/supplychain_classes.png)
