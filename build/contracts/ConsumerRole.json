@@ -284,7 +284,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1477,
+                          "referencedDeclaration": 1466,
                           "src": "631:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -392,7 +392,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1477,
+                              "referencedDeclaration": 1466,
                               "src": "791:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -480,10 +480,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1480,
-                        1481
+                        1469,
+                        1470
                       ],
-                      "referencedDeclaration": 1481,
+                      "referencedDeclaration": 1470,
                       "src": "772:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -842,7 +842,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1477,
+                          "referencedDeclaration": 1466,
                           "src": "1328:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1512,7 +1512,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1477,
+                          "referencedDeclaration": 1466,
                           "src": "631:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1620,7 +1620,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1477,
+                              "referencedDeclaration": 1466,
                               "src": "791:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1708,10 +1708,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1480,
-                        1481
+                        1469,
+                        1470
                       ],
-                      "referencedDeclaration": 1481,
+                      "referencedDeclaration": 1470,
                       "src": "772:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2070,7 +2070,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1477,
+                          "referencedDeclaration": 1466,
                           "src": "1328:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -2542,5 +2542,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2023-09-07T20:45:53.639Z"
+  "updatedAt": "2023-09-08T05:32:13.503Z"
 }

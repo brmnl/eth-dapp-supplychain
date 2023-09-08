@@ -262,11 +262,11 @@ contract SupplyChain is
         payable
         onlyDistributor
         forSale(_upc)
-        paidEnough(items[_upc].productPrice)
+        paidEnough(msg.value)
         checkValue(_upc)
     {
         // Update the appropriate fields - ownerID, distributorID, itemState
-        items[_upc].ownerID = localOwner;
+        items[_upc].ownerID = msg.sender;
         items[_upc].distributorID = msg.sender;
         items[_upc].itemState = State.Sold;
         // Transfer money to farmer
@@ -297,11 +297,9 @@ contract SupplyChain is
     // Use the above modifiers to check if the item is shipped
     // Call modifier to check if upc has passed previous supply chain stage
     // Access Control List enforced by calling Smart Contract / DApp
-    function receiveItem(
-        uint _upc
-    ) public onlyRetailer shipped(_upc) verifyCaller(items[_upc].retailerID) {
+    function receiveItem(uint _upc) public onlyRetailer shipped(_upc) {
         // Update the appropriate fields - ownerID, retailerID, itemState
-        items[_upc].ownerID = localOwner;
+        items[_upc].ownerID = msg.sender;
         items[_upc].retailerID = msg.sender;
         items[_upc].itemState = State.Received;
         // Emit the appropriate event
@@ -314,9 +312,9 @@ contract SupplyChain is
     // Access Control List enforced by calling Smart Contract / DApp
     function purchaseItem(
         uint _upc
-    ) public onlyConsumer received(_upc) verifyCaller(items[_upc].consumerID) {
+    ) public payable onlyConsumer received(_upc) {
         // Update the appropriate fields - ownerID, consumerID, itemState
-        items[_upc].ownerID = localOwner;
+        items[_upc].ownerID = msg.sender;
         items[_upc].consumerID = msg.sender;
         items[_upc].itemState = State.Purchased;
         // Emit the appropriate event
